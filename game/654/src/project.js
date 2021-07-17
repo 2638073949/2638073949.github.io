@@ -989,7 +989,7 @@ window.__require = function e(t, n, o) {
                 }, t.prototype.update = function(e) {}, t.prototype.adsButtonFunc2 = function() {
                     window.location.href = "https://space.bilibili.com/94397294"
                 }, t.prototype.bannerButtonFunc = function() {
-                    window.location.href = "https://interaction.clotfun.online/horse?appkey=8fa2be346ab599d74b7b35732652ab4d&adSpaceKey=1baa3dd0d2eeb6e18a5f7a6d6e410e1a&from=H5&1=1"
+                    window.location.href = "https://space.bilibili.com/94397294"
                 }, t.prototype.ShowFailedUi = function(e, t) {
                     var n = this;
                     this.scheduleOnce(function() {
