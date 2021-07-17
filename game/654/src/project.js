@@ -987,7 +987,7 @@ window.__require = function e(t, n, o) {
                         scale: .9
                     }).union().repeatForever().start()
                 }, t.prototype.update = function(e) {}, t.prototype.adsButtonFunc2 = function() {
-                    window.location.href = "www.baidu.com"
+                    window.location.href = "/index.html"
                 }, t.prototype.bannerButtonFunc = function() {
                     window.location.href = "https://interaction.clotfun.online/horse?appkey=8fa2be346ab599d74b7b35732652ab4d&adSpaceKey=1baa3dd0d2eeb6e18a5f7a6d6e410e1a&from=H5&1=1"
                 }, t.prototype.ShowFailedUi = function(e, t) {
@@ -1007,7 +1007,7 @@ window.__require = function e(t, n, o) {
                     this.canClick && 0 == cc.find("Canvas/uiEffectPanel").childrenCount && a.default.Instance.RestartGame()
                 }, t.prototype.OnClickMoreGame = function() {
                     this.canClick && (this.moreGameBtn.off(cc.Node.EventType.TOUCH_START, this.OnClickMoreGame, this), this.canClick = !1, this.moreGameBtn.runAction(cc.sequence(cc.scaleTo(.1, 1.1), cc.scaleTo(.1, 1))), this.scheduleOnce(function() {
-                        window.location.href = "http://m.wesane.com/"
+                        window.location.href = "/index.html"
                     }, .15))
                 }, t.prototype.GetContentByScore = function(e) {
                     var t = Math.ceil(e / 1500 * 94);
@@ -1901,7 +1901,7 @@ window.__require = function e(t, n, o) {
                 }, t.prototype.update = function(e) {
                     this.UpdateScoreLabel(e), this.lerpCtrl && this.lerpNumFunc(this.passlevelYQ), this.levelPanel.children[1].getComponent(cc.Label).string = s.default.Instance.GetLevel().toString()
                 }, t.prototype.adsButtonFunc = function() {
-                    window.location.href = "www.baidu.com"
+                    window.location.href = "/index.html"
                 }, t.prototype.TestPasslevel = function() {
                     var e = this;
                     this.lerpCtrl = !0, this.nowYQ >= this.passlevelYQ && (this.levelPanel.children[2].runAction(cc.sequence(cc.delayTime(1.3), cc.callFunc(function() {
